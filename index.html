@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KeyCode</title>
+    <link rel="stylesheet" href="css/output.css">
+</head>
+
+<body>
+    <main class="bg-gray-900 w-full h-auto lg:h-screen">
+        <header class="w-full h-12 bg-slate-200 flex justify-between items-center px-14 relative">
+            <h2 class="font-bold text-xl">Key Code</h2>
+            <!-- info -->
+            <div
+                class="w-44 h-[35px] hover:h-[185px] overflow-hidden transition-all duration-300 text-center *:italic fixed top-2 right-0">
+                <strong class="text-lg pb-3 block text-gray-900 underline underline-offset-[6px]">Reza Geshani</strong>
+                <a class="text-white font-semibold my-2 flex justify-center hover:text-orange-300"
+                    href="https://www.linkedin.com/in/reza-geshani-web">Linkedin</a>
+                <a class="text-white font-semibold my-2 flex justify-center hover:text-orange-300"
+                    href="https://github.com/RezaGeshaniWeb/">Github</a>
+                <a class="text-white font-semibold my-2 flex justify-center hover:text-orange-300"
+                    href="https://www.instagram.com/rezageshani_web">Instagram</a>
+                <a class="text-white font-semibold my-2 flex justify-center hover:text-orange-300"
+                    href="mailto:rezageshaniweb@gmail.com">Email</a>
+            </div>
+            <!-- info -->
+        </header>
+        <section id="part1" class="w-full h-[90%] flex flex-col justify-around items-center py-14 lg:py-0">
+            <h1 class="text-center text-white text-5xl">JavaScript Key Code</h1>
+            <div
+                class="w-[80%] lg:w-[40%] px-6 py-10 bg-white shadow-lg mx-auto text-center rounded-lg text-2xl font-semibold leading-10">
+                Press any key to get <br> the JavaScript event keycode info
+            </div>
+        </section>
+        <section id="part2" class="w-full h-[90%] flex flex-col justify-around items-center py-14 lg:py-0 hidden">
+            <h3 class="text-white font-semibold text-3xl">JavaScript Key Code <span id="key-code-span">67</span></h3>
+            <h2 class="text-white font-semibold text-6xl my-5 lg:my-0" id="key-code">67</h2>
+            <p class="text-white font-semibold text-xl">Key Code Information</p>
+            <div class="w-full flex flex-wrap items-center justify-center gap-10">
+                <div class="w-[80%] sm:w-[65%] md:w-[40%] lg:w-[27%] h-60 bg-white">
+                    <h3
+                        class="w-full h-[15%] bg-blue-600 flex items-center justify-center font-semibold text-white text-2xl">
+                        event.key</h3>
+                    <p id="key-code-key" class="w-full h-[85%] text-gray-900 text-4xl flex items-center justify-center font-semibold">F5
+                    </p>
+                </div>
+                <div class="w-[80%] sm:w-[65%] md:w-[40%] lg:w-[27%] h-60 bg-white">
+                    <h3
+                        class="w-full h-[15%] bg-blue-600 flex items-center justify-center font-semibold text-white text-2xl">
+                        event.code
+                    </h3>
+                    <p id="key-code-code" class="w-full h-[85%] text-gray-900 text-4xl flex items-center justify-center font-semibold">KeyC
+                    </p>
+                </div>
+                <div class="w-[80%] sm:w-[65%] md:w-[40%] lg:w-[27%] h-60 bg-white">
+                    <h3
+                        class="w-full h-[15%] bg-blue-600 flex items-center justify-center font-semibold text-white text-2xl">
+                        event.which
+                    </h3>
+                    <p id="key-code-which" class="w-full h-[85%] text-gray-900 text-4xl flex items-center justify-center font-semibold">KeyC
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
